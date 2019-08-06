@@ -229,8 +229,26 @@ fun main(args: Array<String>) {
 //  }
 //
 //  val kk = User()
-  val a = C()
-  a.f()
+//  val a = C()
+//  a.f()
+
+  val sourceList = mutableListOf(1, 2, 3, 1)
+  val copySet = sourceList.toSet()
+  println(copySet)
+
+
+//  val copyList = sourceList
+//  println(copyList)
+//  sourceList.add(4)
+//  println(copyList)
+
+  //val copyList = sourceList.toMutableList()
+//  val readOnlyCopyList = sourceList.toList()
+//  sourceList.add(4)
+//  println("Copy size: ${copyList.size}")
+//
+//  //readOnlyCopyList.add(4)             // 编译异常
+//  println("Read-only copy size: ${readOnlyCopyList.size}")
 
 }
 

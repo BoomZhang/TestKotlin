@@ -9,6 +9,8 @@ abstract class A {
 
   abstract fun f()
 
+  open var age: Int = 11
+
   fun a(){
     println("a")
   }
